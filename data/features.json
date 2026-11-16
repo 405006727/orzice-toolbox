@@ -1,0 +1,114 @@
+{
+  "site": {
+    "name": "三角洲小涛查 · 三角洲数据帝",
+    "host": "https://orzice.com",
+    "description": "《三角洲行动》第三方攻略与数据工具站：实时交易行价格、卡战备、每日密码门、特勤处制造利润、改枪码、赛季任务、钥匙卡与子弹价格预测、图鉴等。",
+    "notice": "站点游戏图片、素材版权归腾讯公司所有；本客户端仅按原站分类整理功能入口与本地小工具，数据以原站实时内容为准。"
+  },
+  "categories": [
+    {
+      "key": "combat_ready",
+      "name": "战备与改枪",
+      "features": [
+        {"id": "zb_ssV4", "name": "鼠鼠卡战备 V4", "url": "/v/zb_ssV4", "kind": "web", "desc": "全网首创卡战备，自动计算假账与战备值，持续维护中。"},
+        {"id": "zb_diy", "name": "DIY 凑战备", "url": "/v/zb_diy", "kind": "web", "desc": "自定义凑战备配装，按目标战备值调整装备。"},
+        {"id": "zb_top", "name": "卡战备排行榜", "url": "/v/zb_top", "kind": "web", "desc": "卡战备方案与假账排行。"},
+        {"id": "gun_gqm", "name": "改枪方案 · 改枪码", "url": "/v/gun_gqm", "kind": "web", "desc": "知名博主配装合集，几百个改枪码任选，一键复制。"}
+      ]
+    },
+    {
+      "key": "black_tide",
+      "name": "黑潮爆破",
+      "features": [
+        {"id": "bd_gqm", "name": "黑潮改枪码", "url": "/v/bd_gqm", "kind": "web", "desc": "手枪 / 标准 / 精锐 / 特种四档配装，一键复制直接使用。"},
+        {"id": "bd_reward", "name": "对局经济 · 经济系统", "url": "/v/bd_reward", "kind": "web", "desc": "初始资金、击败赏金、连败补偿等赏金规则与金额。"},
+        {"id": "bd_agent", "name": "干员攻略 · 技能花费", "url": "/v/bd_agent", "kind": "web", "desc": "突击 / 支援 / 工程 / 信息四类干员的技能与购买花费。"}
+      ]
+    },
+    {
+      "key": "market_live",
+      "name": "实时交易行",
+      "features": [
+        {"id": "zhanbei", "name": "头 / 甲 / 枪 / 胸挂 / 背包", "url": "/v/zhanbei", "kind": "web", "desc": "装备类（头、甲、枪、胸挂、背包）交易行实时价格。"},
+        {"id": "ammo", "name": "子弹实时价格", "url": "/v/ammo", "kind": "web", "desc": "子弹交易行实时价格。"},
+        {"id": "keys", "name": "钥匙卡实时价格", "url": "/v/keys", "kind": "web", "desc": "钥匙卡交易行实时价格。"},
+        {"id": "collection", "name": "收集品实时价格", "url": "/v/collection", "kind": "web", "desc": "收集品交易行实时价格。"},
+        {"id": "consume", "name": "消耗品实时价格", "url": "/v/consume", "kind": "web", "desc": "消耗品交易行实时价格。"},
+        {"id": "item_jz", "name": "物品单格价值", "url": "/v/item_jz", "kind": "local", "desc": "按总价与占格数计算物品单格价值，判断搬运性价比。"}
+      ]
+    },
+    {
+      "key": "forecast",
+      "name": "市场与低价预测",
+      "features": [
+        {"id": "market_board", "name": "市场看板", "url": "/v/market_board", "kind": "web", "desc": "枪械 / 子弹 / 收集品 3 日涨跌排行，支持生成海报。"},
+        {"id": "follow", "name": "我的关注", "url": "/v/follow", "kind": "web", "desc": "自选物品价格关注与提醒。"},
+        {"id": "ammo_pay", "name": "子弹涨跌 Top", "url": "/v/ammo_pay", "kind": "web", "desc": "子弹涨跌仪表盘，经济学视角看行情。"},
+        {"id": "ammo_zr_yz", "name": "昨日倒子弹最高收益", "url": "/v/ammo_zr_yz", "kind": "web", "desc": "昨日倒子弹最高收益排行。"},
+        {"id": "ammo_top", "name": "子弹自选包收益", "url": "/v/ammo_top", "kind": "web", "desc": "子弹自选包收益测算。"},
+        {"id": "ammo_day", "name": "子弹低价补货预测", "url": "/v/ammo_day", "kind": "web", "desc": "今日子弹低价补货预测。"},
+        {"id": "zb_ammo_day", "name": "今日子弹低价预测", "url": "/v/zb_ammo_day", "kind": "web", "desc": "今日子弹低价预测。"},
+        {"id": "keys_day", "name": "钥匙卡低价预测", "url": "/v/keys_day", "kind": "web", "desc": "钥匙卡低价补卡预测。"},
+        {"id": "zb_keys_day", "name": "今日钥匙卡低价预测", "url": "/v/zb_keys_day", "kind": "web", "desc": "今日钥匙卡低价预测。"},
+        {"id": "keys_day_yc", "name": "明日钥匙卡补货预测", "url": "/v/keys_day_yc", "kind": "web", "desc": "明日钥匙卡低价补卡预测。"},
+        {"id": "zb_keys_day_yc", "name": "明日钥匙卡低价预测", "url": "/v/zb_keys_day_yc", "kind": "web", "desc": "明日钥匙卡低价预测。"}
+      ]
+    },
+    {
+      "key": "craft",
+      "name": "特勤处制造",
+      "features": [
+        {"id": "rb", "name": "今日制造 · 补卡攻略", "url": "/v/rb", "kind": "web", "desc": "今日制造推荐与补卡攻略，利润一目了然。"},
+        {"id": "mfg_t1", "name": "技术中心", "url": "/v/manufacture?t=1", "kind": "web", "desc": "技术中心制造利润排行。"},
+        {"id": "mfg_t2", "name": "工作台", "url": "/v/manufacture?t=2", "kind": "web", "desc": "工作台制造利润排行。"},
+        {"id": "mfg_t3", "name": "制药台", "url": "/v/manufacture?t=3", "kind": "web", "desc": "制药台制造利润排行。"},
+        {"id": "mfg_t4", "name": "防具台", "url": "/v/manufacture?t=4", "kind": "web", "desc": "防具台制造利润排行。"}
+      ]
+    },
+    {
+      "key": "season",
+      "name": "赛季与部门任务",
+      "features": [
+        {"id": "task_s11", "name": "S11 赛季任务", "url": "/v/task_s11", "kind": "web", "desc": "S11 赛季全任务攻略，快速完成拿奖励。"},
+        {"id": "task_s10", "name": "S10 赛季任务", "url": "/v/task_s10", "kind": "web", "desc": "S10 赛季全任务攻略。"},
+        {"id": "dept_tactical", "name": "战术部门", "url": "/v/task_dept/tactical", "kind": "web", "desc": "战术部门任务攻略。"},
+        {"id": "dept_combat", "name": "战斗部门", "url": "/v/task_dept/combat", "kind": "web", "desc": "战斗部门任务攻略。"},
+        {"id": "dept_logistics", "name": "后勤部门", "url": "/v/task_dept/logistics", "kind": "web", "desc": "后勤部门任务攻略。"},
+        {"id": "dept_medical", "name": "医疗部门", "url": "/v/task_dept/medical", "kind": "web", "desc": "医疗部门任务攻略。"},
+        {"id": "dept_rd", "name": "研发部门", "url": "/v/task_dept/rd", "kind": "web", "desc": "研发部门任务攻略。"}
+      ]
+    },
+    {
+      "key": "codex",
+      "name": "图鉴与查询",
+      "features": [
+        {"id": "fishing", "name": "钓鱼 / 鱼饵图鉴", "url": "/v/fishing", "kind": "web", "desc": "钓鱼与鱼饵收集图鉴。"},
+        {"id": "scp_book", "name": "收藏品图鉴", "url": "/v/scp_book", "kind": "web", "desc": "收藏品收集图鉴。"},
+        {"id": "card_collect", "name": "阿萨拉牌盒收集", "url": "/v/card_collect", "kind": "web", "desc": "阿萨拉牌盒收集进度查询。"},
+        {"id": "map", "name": "游戏地图工具", "url": "/v/map", "kind": "web", "desc": "核电站点位、大红刷卡点，全部地图可查。"},
+        {"id": "morse", "name": "摩斯密码教程", "url": "/v/morse", "kind": "local", "desc": "摩斯密码编解码工具与彩蛋房密码对照教程。"}
+      ]
+    },
+    {
+      "key": "toys",
+      "name": "鼠鼠小玩具",
+      "features": [
+        {"id": "mnq_sstc", "name": "鼠鼠偷吃模拟器", "url": "/v/mnq_sstc", "kind": "web", "desc": "站点互动小玩具。"},
+        {"id": "music", "name": "鼠鼠音乐播放器", "url": "/v/music", "kind": "web", "desc": "站点音乐播放器。"},
+        {"id": "achievement", "name": "自定义成就", "url": "/v/achievement", "kind": "web", "desc": "自定义成就生成。"}
+      ]
+    },
+    {
+      "key": "welfare",
+      "name": "福利与内容",
+      "features": [
+        {"id": "lottery", "name": "福利中心", "url": "/v/lottery", "kind": "web", "desc": "做任务攒活跃积分，参与福利活动获得奖品。"},
+        {"id": "article_list", "name": "攻略文章", "url": "/v/article_list", "kind": "web", "desc": "站点攻略文章列表。"},
+        {"id": "wxapp", "name": "微信小程序", "url": "/v/wxapp", "kind": "web", "desc": "站点微信小程序入口。"}
+      ]
+    }
+  ],
+  "local_tools": [
+    {"id": "doors", "name": "今日密码门", "desc": "六张地图每日密码，0 点后更新，点击即可复制。"}
+  ]
+}
